@@ -63,7 +63,7 @@ class FormularioController {
     return res.status(401).json({error:"Formulário não existe para esse usuários."})
    }
 
-    await form.update(req.body.form);
+    await form.update(req.body);
     return res.json(form);
   }
 }
