@@ -17,6 +17,7 @@ class ProcedimentoController {
 
     const procedimentoInfo = await Procedimento.findAll({
       where: { form_id },
+      order: [['id', 'ASC']]
     })
     return res.json(procedimentoInfo)
   }

@@ -6,6 +6,7 @@ class TomadaContas extends Model {
       {
         tomadaContasEspecialIdNumRegistro: Sequelize.STRING,
         tomadaContasEspecialCodigoUnidadeGestora: Sequelize.STRING,
+        tomadaContasEspecialTipoTce: Sequelize.STRING,
         tomadaContasEspecialProcesso: Sequelize.STRING,
         tomadaContasEspecialAnoProcesso: Sequelize.STRING,
         tomadaContasEspecialFatoMotivo: Sequelize.STRING,
@@ -13,9 +14,8 @@ class TomadaContas extends Model {
         tomadaContasEspecialDataInstauracao: Sequelize.STRING,
         tomadaContasEspecialDataEnvioTribunalContas: Sequelize.STRING,
         tomadaContasEspecialValorDebito: Sequelize.STRING,
-        tomadaContasEspecialSituacaoEm31do12: Sequelize.STRING,
-        tomadaContasEspecialMotivoBaixaDebito: Sequelize.STRING,
-
+        tomadaContasEspecialSituacaoEm31do12InstauradaUg: Sequelize.STRING,
+        tomadaContasEspecialSituacaoEm31do12EnviadaTcees: Sequelize.STRING,
       },
       {
         sequelize,

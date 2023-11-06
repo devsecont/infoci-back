@@ -26,6 +26,12 @@ module.exports = {
           defaultValue: "",
           field: 'tomada_contas_especial_codigo_unidade_gestora',
         },
+        tomadaContasEspecialTipoTce: {
+          type: Sequelize.STRING,
+          allowNull: false,
+          defaultValue: "",
+          field: 'tomada_contas_especial_tipo_tce',
+        },
         tomadaContasEspecialProcesso: {
           type: Sequelize.STRING,
           allowNull: false,
@@ -68,19 +74,18 @@ module.exports = {
           defaultValue: "",
           field: 'tomada_contas_especial_valor_debito',
         },
-        tomadaContasEspecialSituacaoEm31do12: {
+        tomadaContasEspecialSituacaoEm31do12InstauradaUg: {
           type: Sequelize.STRING,
           allowNull: false,
           defaultValue: "",
-          field: 'tomada_contas_especial_situacao_em31do12',
+          field: 'tomada_contas_especial_situacao_em31do12_instaurada_ug',
         },
-        tomadaContasEspecialMotivoBaixaDebito: {
+        tomadaContasEspecialSituacaoEm31do12EnviadaTcees: {
           type: Sequelize.STRING,
           allowNull: false,
           defaultValue: "",
-          field: 'tomada_contas_especial_motivo_baixa_debito',
+          field: 'tomada_contas_especial_situacao_em31do12_enviada_tcees',
         },
-
         created_at: {
           type: Sequelize.DATE,
           allowNull: false,

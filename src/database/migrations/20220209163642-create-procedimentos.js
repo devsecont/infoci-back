@@ -56,6 +56,18 @@ module.exports = {
           defaultValue: "",
           field: 'procedimentos_amostra_selecionada',
         },
+        procedimentosUnidadeAmostraSelecionada: {
+          type: Sequelize.STRING,
+          allowNull: false,
+          defaultValue: "",
+          field: 'procedimentos_unidade_amostra_selecionada',
+        },
+        procedimentosDescricaoAmostraSelecionada: {
+          type: Sequelize.STRING,
+          allowNull: false,
+          defaultValue: "",
+          field: 'procedimentos_descricao_amostra_selecionada',
+        },
         procedimentosDescricaoAnalise: {
           type: Sequelize.STRING,
           allowNull: false,

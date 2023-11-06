@@ -11,6 +11,8 @@ class Procedimento extends Model {
         procedimentosTipoPontoControle: Sequelize.STRING,
         procedimentosUniversoAnalisado: Sequelize.STRING,
         procedimentosAmostraSelecionada: Sequelize.STRING,
+        procedimentosUnidadeAmostraSelecionada: Sequelize.STRING,
+        procedimentosDescricaoAmostraSelecionada: Sequelize.STRING,
         procedimentosDescricaoAnalise: Sequelize.STRING,
         procedimentosTipoProcedimentoAnalisado: Sequelize.STRING,
         procedimentosSituacaoAnalise: Sequelize.STRING,

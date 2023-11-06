@@ -32,23 +32,23 @@ module.exports = {
           defaultValue: "",
           field: 'unidade_gestora_codigo_unidade_gestora',
         },
-        unidadeGestoraResponsavelUnidadeGestora: {
-          type: Sequelize.STRING,
-          allowNull: false,
-          defaultValue: "",
-          field: 'unidade_gestora_responsavel_unidade_gestora',
-        },
-        unidadeGestoraExercicioUltimaManifestacaoControleInterno: {
-          type: Sequelize.STRING,
-          allowNull: false,
-          defaultValue: "",
-          field: 'unidade_gestora_exercicio_ultima_manifestacao_controle_interno',
-        },
         unidadeGestoraOpiniaoPrestacaoContasControleInterno: {
           type: Sequelize.STRING,
           allowNull: false,
           defaultValue: "",
           field: 'unidade_gestora_opiniao_prestacao_contas_controle_interno',
+        },
+        unidadeGestoraFatoRelevanteRelaci: {
+          type: Sequelize.NUMBER,
+          allowNull: false,
+          defaultValue: "",
+          field: 'unidade_gestora_fato_relevante_relaci',
+        },
+        unidadeGestoraAssuntoPrincipalFatoRelevanteRelaci: {
+          type: Sequelize.NUMBER,
+          allowNull: false,
+          defaultValue: "",
+          field: 'unidade_gestora_assunto_principal_fato_relevante_relaci',
         },
         created_at: {
           type: Sequelize.DATE,
