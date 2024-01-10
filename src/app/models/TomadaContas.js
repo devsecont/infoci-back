@@ -5,6 +5,7 @@ class TomadaContas extends Model {
     super.init(
       {
         tomadaContasEspecialIdNumRegistro: Sequelize.STRING,
+        tomadaContasEspecialExisteTceInstaurada: Sequelize.STRING,
         tomadaContasEspecialCodigoUnidadeGestora: Sequelize.STRING,
         tomadaContasEspecialTipoTce: Sequelize.STRING,
         tomadaContasEspecialProcesso: Sequelize.STRING,

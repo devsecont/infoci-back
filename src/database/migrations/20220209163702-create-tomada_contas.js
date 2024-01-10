@@ -20,6 +20,12 @@ module.exports = {
           defaultValue: "",
           field: 'tomada_contas_especial_id_num_registro',
         },
+        tomadaContasEspecialExisteTCEInstaurada: {
+          type: Sequelize.STRING,
+          allowNull: false,
+          defaultValue: "",
+          field: 'tomada_contas_especial_existe_tce_instaurada',
+        },
         tomadaContasEspecialCodigoUnidadeGestora: {
           type: Sequelize.STRING,
           allowNull: false,
